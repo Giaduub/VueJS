@@ -1,0 +1,55 @@
+.navbar{
+    background-color: white!important;
+}
+
+
+a{
+    color: black!important;
+}
+
+.searchBarre{
+    border: none!important;
+}
+
+.index{
+    background-color: rgba(245, 218, 216, 1);
+    height: 200px;
+}
+
+.btn{
+    background-color: #f5dad8!important;
+    border: none;
+}
+
+button{
+    color: white;
+}
+
+.box{
+    height: 200px;
+}
+
+.nav-link {
+    border-bottom: 2px solid #f5dad8;
+    transition: all 0.25s linear;
+    position: relative;
+  }
+  
+  .nav-link:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(229, 204, 202);
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* this is to match where the border is */
+    transform-origin: left; 
+    transform: scale(0);
+    transition: 0.25s linear;
+  /*   will-change: transform; */
+  }
+  
+  .nav-link:hover:before {
+    transform: scale(1);
+  }
