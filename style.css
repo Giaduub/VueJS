@@ -53,3 +53,9 @@ button{
   .nav-link:hover:before {
     transform: scale(1);
   }
+
+ .bg-red{
+    background-image: url(images/fond.png);
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+ }
